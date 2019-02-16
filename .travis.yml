@@ -19,14 +19,15 @@ after_success:
   - "nyc report --reporter=text-lcov | coveralls"
 
 before_deploy:
+  - "npm install"
   - "npm run clean"
-  - "npm run build -- -P ./tsconfig.prod.json"
+  - "npm run build:prod"
 
 deploy:
   skip_cleanup: true
-  provider: npm
-  email: "arylo.open+npm@gmail.com"
-  api_key: "${NPM_TOKEN}"
+  provider: releases
+  file: dist/index.js
+  api_key: "${GITHUB_TOKEN}"
   on:
     branch: master
-    node_js: "node"
+    node_js: "lts/*"
