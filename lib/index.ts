@@ -12,7 +12,7 @@
 // @exclude     https://*/*
 // @require     https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js
 // ==/UserScript==
-(function() {
+(() => {
     "use strict";
     let arr = [];
     if (/(^要看|\s要看)\s/.test(document.title)) {
