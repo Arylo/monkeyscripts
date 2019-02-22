@@ -1,6 +1,6 @@
 {
   "name": "monkeyscripts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "自用油猴脚本",
   "main": "dist/index.js",
   "types": "lib/index.ts",
@@ -17,7 +17,9 @@
   },
   "keywords": [
     "arylo",
-    "typescript"
+    "typescript",
+    "monkey",
+    "tampermonkey"
   ],
   "engines": {
     "node": ">=6"
