@@ -4,12 +4,13 @@
 // @version     1.0.1
 // @author      AryloYeung
 // @homepageURL https://github.com/Arylo/monkeyscripts
-// @downloadURL https://github.com/Arylo/monkeyscripts/releases/latest/index.js
+// @updateURL   https://github.com/Arylo/monkeyscripts/releases/latest/download/index.js
+// @downloadURL https://github.com/Arylo/monkeyscripts/releases/latest/download/index.js
 // @supportURL  https://github.com/Arylo/monkeyscripts/issues
 // @license     MIT
 // @run-at      document-end
 // @exclude     http://*.acfun.cn/*
-// @exclude     https://*/*
+// @exclude     https://*
 // @require     https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js
 // ==/UserScript==
 (() => {
