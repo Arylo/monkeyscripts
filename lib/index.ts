@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        A Change
 // @namespace   https://github.com/Arylo
-// @version     1.0.1
+// @version     1.0.2
 // @author      AryloYeung
 // @homepageURL https://github.com/Arylo/monkeyscripts
 // @updateURL   https://github.com/Arylo/monkeyscripts/releases/latest/download/index.js
@@ -37,6 +37,7 @@
         // 导航在原页面跳转
         $(".row .row-item-content .item a").removeAttr("target");
     } else if (/Mimi\s+Board\s+/.test(document.title)) {
-        $(".maintable > [align=center]").remove();
+        $(".maintable > [width=666][align=center] ~ [align=center]").remove();
+        $(".maintable > [width=666][align=center] ~ .maintable").remove();
     }
 })();
