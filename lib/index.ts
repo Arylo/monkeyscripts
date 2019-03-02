@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        A Change
 // @namespace   https://github.com/Arylo
-// @version     1.0.2
+// @version     1.0.3
 // @author      AryloYeung
 // @homepageURL https://github.com/Arylo/monkeyscripts
 // @updateURL   https://github.com/Arylo/monkeyscripts/releases/latest/download/index.js
@@ -10,6 +10,7 @@
 // @license     MIT
 // @run-at      document-end
 // @exclude     http://*.acfun.cn/*
+// @exclude     http://*.eshop-switch.com/*
 // @exclude     https://*
 // @require     https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js
 // ==/UserScript==
