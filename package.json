@@ -1,6 +1,6 @@
 {
   "name": "monkeyscripts",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "自用油猴脚本",
   "main": "dist/index.js",
   "types": "lib/index.ts",
